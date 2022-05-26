@@ -2,7 +2,7 @@
  background-color: lightblue;
 }
 
-.container1{
+/* .container1{
     background-image: url('https://shethonemarinamarinelines.com/assets/images/One-marina-Website-banner.jpg');
 }
 
@@ -10,4 +10,18 @@
     .container1{
     background-image: url('https://shethonemarinamarinelines.com/assets/images/One-marina-Website-banner-m.jpeg');
     }
-}
+} */
+
+.image2{
+    display: none;
+ }
+ 
+ @media only screen and (max-width: 500px){ 
+    .image2{
+      display: none;
+    }
+ 
+    .image1{
+      display: block;
+    }
+ }
