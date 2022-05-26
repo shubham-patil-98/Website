@@ -1,0 +1,13 @@
+.navbar-nav{
+ background-color: lightblue;
+}
+
+.row{
+    background-image: url('https://shethonemarinamarinelines.com/assets/images/One-marina-Website-banner.jpg');
+}
+
+@media only screen and (max-width: 600px) {
+    .row{
+    background-image: url('https://shethonemarinamarinelines.com/assets/images/One-marina-Website-banner-m.jpeg');
+    }
+}
